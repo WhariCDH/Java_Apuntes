@@ -4171,3 +4171,10 @@ ADVERTENCIA: Unmatched cancel notification for request id 5194
 2026.01.19 23:37:58 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java. Using fallback presentation compiler.
 2026.01.19 23:38:03 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java
 2026.01.19 23:38:03 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java. Using fallback presentation compiler.
+2026.01.19 23:39:43 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java. Using fallback presentation compiler.
+2026.01.19 23:39:43 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java. Using fallback presentation compiler.
+2026.01.19 23:39:43 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\Clase03\graficos20.java. Using fallback presentation compiler.
+2026.01.19 23:39:43 INFO  empty definition using pc, found symbol in pc: java/lang/Integer# (full report at: "C:\Users\Dayana\OneDrive\Escritorio\Java_Apuntes-master\.metals\.reports\metals-full\2026-01-19\r_empty-definition_23-25-37-419.md")
+2026.01.19 23:44:20 INFO  Shutting down server
+2026.01.19 23:44:20 INFO  shutting down Metals
+2026.01.19 23:44:20 INFO  Exiting server
