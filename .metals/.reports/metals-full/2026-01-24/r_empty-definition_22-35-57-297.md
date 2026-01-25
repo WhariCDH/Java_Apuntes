@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java:java/sql/Statement#executeUpdate().
+file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java
+empty definition using pc, found symbol in pc: java/sql/Statement#executeUpdate().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 3650
+uri: file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java
+text:
+```scala
 package Clase03;
 
 import java.sql.*;
@@ -59,34 +70,23 @@ public class CRUD21 {
                         break;
                     
                     case 3: //Actualizar alumnos (Update)
+                        sc.nextLine(); //Limpiamos el buffer
 
                         System.out.print("ID del alumno a actualizar: ");
                         int idUpdate=sc.nextInt(); 
-                        sc.nextLine(); // 👈 limpiar buffer
+                        sc.nextLine(); // limpiar buffer 
 
                         System.out.println("Nuevo nombre: ");
                         String nuevoNombre=sc.nextLine();
-                        
 
                         System.out.println("Nueva edad: ");
                         int nuevaEdad=sc.nextInt();
-                      
 
-                        String sqlUpdate="UPDATE alumnos Set nombre='"+nuevoNombre+"',edad="+nuevaEdad+" WHERE id="+idUpdate;
-                        stmt.executeUpdate(sqlUpdate);
+                        String sqlUpdate="UPDATE alumno Set nombre='"+nuevoNombre+"',edad="+nuevaEdad+"WHERE id="+idUpdate;
+                        stmt.execute@@Update(sqlUpdate);
                         System.out.println("Alumno Actualizado");
                         break;
 
-                    case 4: //Eliminar el ID del alumno que queremos eliminar (Delete)
-                      
-                        System.out.println("ID del alumno que queremos eliminar: ");
-                        int idDelete=sc.nextInt();
-                        sc.nextLine(); // 👈 limpiar buffer
-
-                        String sqlDelete="DELETE FROM alumnos WHERE id="+idDelete;
-                        stmt.executeUpdate(sqlDelete);
-                        System.out.println("Alumno eliminado");
-                        break;
 
                     case 5:
                         System.out.println("Saliendo del sistema...");
@@ -94,8 +94,6 @@ public class CRUD21 {
 
                     default:
                         System.out.println("Opción no válida");
-                        break;
-
                 }
 
             } while (opcion != 5);
@@ -110,3 +108,9 @@ public class CRUD21 {
         }
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/sql/Statement#executeUpdate().

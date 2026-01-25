@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java:java/util/Scanner#nextLine().
+file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java
+empty definition using pc, found symbol in pc: java/util/Scanner#nextLine().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 1692
+uri: file:///C:/Users/Dayana/Java_Apuntes/Clase03/CRUD21.java
+text:
+```scala
 package Clase03;
 
 import java.sql.*;
@@ -36,9 +47,11 @@ public class CRUD21 {
                     case 1: //Insertar datos de un alumno (create) 
                         System.out.print("Nombre del alumno: ");
                         String nombre=sc.nextLine(); 
+                        sc.ne@@xtLine();
                 
                         System.out.print("Edad del Alumno: ");
                         int edad=sc.nextInt();
+                        sc.nextLine();
                 
                         //Generamos la instruccion sql para insertar en la tabla 
                         String sqlInsert="INSERT INTO alumnos(nombre,edad) VALUES('"+nombre+"',"+edad+")"; //edad no lleva comilla por que es entero 
@@ -48,54 +61,12 @@ public class CRUD21 {
                         System.out.println("Alumno registrado: ");
                         break;
 
-                    case 2: //Leer datos de los alumnos (Read)
-                        //esta instrucción muestra todos los datos de la tabla alumno
-                        ResultSet rs=stmt.executeQuery("SELECT * FROM alumnos");
-                        System.out.println("\nListado de Alumnos");
-                        //mientras rs tenga un siguiente elemento
-                        while (rs.next()) {
-                            System.out.println(rs.getInt("id")+"-"+rs.getString("nombre")+"-Edad: "+rs.getInt("Edad")); 
-                        }
-                        break;
-                    
-                    case 3: //Actualizar alumnos (Update)
-
-                        System.out.print("ID del alumno a actualizar: ");
-                        int idUpdate=sc.nextInt(); 
-                        sc.nextLine(); // 👈 limpiar buffer
-
-                        System.out.println("Nuevo nombre: ");
-                        String nuevoNombre=sc.nextLine();
-                        
-
-                        System.out.println("Nueva edad: ");
-                        int nuevaEdad=sc.nextInt();
-                      
-
-                        String sqlUpdate="UPDATE alumnos Set nombre='"+nuevoNombre+"',edad="+nuevaEdad+" WHERE id="+idUpdate;
-                        stmt.executeUpdate(sqlUpdate);
-                        System.out.println("Alumno Actualizado");
-                        break;
-
-                    case 4: //Eliminar el ID del alumno que queremos eliminar (Delete)
-                      
-                        System.out.println("ID del alumno que queremos eliminar: ");
-                        int idDelete=sc.nextInt();
-                        sc.nextLine(); // 👈 limpiar buffer
-
-                        String sqlDelete="DELETE FROM alumnos WHERE id="+idDelete;
-                        stmt.executeUpdate(sqlDelete);
-                        System.out.println("Alumno eliminado");
-                        break;
-
                     case 5:
                         System.out.println("Saliendo del sistema...");
                         break;
 
                     default:
                         System.out.println("Opción no válida");
-                        break;
-
                 }
 
             } while (opcion != 5);
@@ -110,3 +81,9 @@ public class CRUD21 {
         }
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/util/Scanner#nextLine().
