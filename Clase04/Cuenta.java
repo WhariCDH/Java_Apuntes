@@ -31,15 +31,15 @@ public class Cuenta {
 
     //creamos un método para depositar dinero a la cuenta
     public void depositar(double cantidad) {
-        if (cantidad > 0) {
-            this.saldo += cantidad;
+        if (cantidad>0) {
+            this.saldo+=cantidad;
         }
     }
 
     //creamos un método para retirar dinero de la cuenta
     public void retirar(double cantidad) {
-        if (cantidad > 0 && cantidad <= saldo) {
-            this.saldo -= cantidad;
+        if (cantidad>0 && cantidad<=saldo) {
+            this.saldo-=cantidad;
         }
     }
 }
