@@ -1,7 +1,6 @@
 package Clase04;
 import java.util.Scanner;
 
-
 public class POO23 {
     public static void main(String[] args) {
         Scanner entrada=new Scanner(System.in);
@@ -16,11 +15,12 @@ public class POO23 {
 
         System.out.print("Modelo del vehículo: ");
         String modelo=entrada.nextLine();
-        
+
         System.out.print("Año del Vehiculo: ");
         int año=Integer.parseInt(entrada.nextLine());
 
         Coche coche2=new Coche(marca, modelo, año);
+        //coche1.mostrarInfo(); en este caso slen los 2 juntos en la consola
         coche2.mostrarInfo();
         entrada.close();
 
