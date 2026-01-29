@@ -39,8 +39,7 @@ public class Encap25 {
         cuenta.retirar(200);
 
         System.out.println("Saldo actual: $"+cuenta.getSaldo());
-        System.out.println("Gracias por entrar al servicio....");
-
+        System.out.println("Gracias por entrar al servicio....");  
         entrada.close();
     }
 }
