@@ -44,7 +44,7 @@ public class EstudiantePosGrado extends Estudiante implements Descuentos {
     @Override
     public double descuento() {
 
-        double descuentoTotal = 50;   // descuento fijo
+        double descuentoTotal = 50;   //descuento fijo 
 
         descuentoTotal=descuentoTotal+descuentoCondicion();
 
