@@ -229,3 +229,81 @@ ADVERTENCIA: Unmatched cancel notification for request id 1
 2026.03.18 14:29:23 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java
 2026.03.18 14:29:23 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
 2026.03.18 14:29:26 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:29:51 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:30:13 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:30:17 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+mar. 18, 2026 2:30:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 49
+2026.03.18 14:30:29 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:30:33 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:39:17 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:39:22 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:39:22 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:39:23 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+mar. 18, 2026 2:39:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 80
+2026.03.18 14:39:22 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:39:23 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:39:30 INFO  Shutting down server
+2026.03.18 14:39:30 INFO  Memory monitor stopped
+2026.03.18 14:39:30 INFO  shutting down Metals
+2026.03.18 14:39:30 INFO  Exiting server
+2026.03.18 14:40:19 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Dayana\OneDrive\Escritorio\POO' for client Visual Studio Code 1.111.0.
+2026.03.18 14:40:19 INFO  Memory monitor started
+2026.03.18 14:40:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.18 14:40:21 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:40:22 WARN  no build tool detected in workspace 'C:\Users\Dayana\OneDrive\Escritorio\POO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.18 14:40:22 WARN  Build server is not auto-connectable.
+2026.03.18 14:40:22 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:40:24 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:40:26 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:40:36 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:40:56 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:41:04 INFO  Shutting down server
+2026.03.18 14:41:04 INFO  Memory monitor stopped
+2026.03.18 14:41:04 INFO  shutting down Metals
+2026.03.18 14:41:04 INFO  Exiting server
+2026.03.18 14:42:28 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Dayana\OneDrive\Escritorio\POO' for client Visual Studio Code 1.111.0.
+2026.03.18 14:42:28 INFO  Memory monitor started
+2026.03.18 14:42:28 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.18 14:42:29 WARN  no build tool detected in workspace 'C:\Users\Dayana\OneDrive\Escritorio\POO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.18 14:42:29 WARN  Build server is not auto-connectable.
+2026.03.18 14:42:29 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java
+mar. 18, 2026 2:42:31 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.03.18 14:42:32 INFO  Shutting down server
+2026.03.18 14:42:32 INFO  Memory monitor stopped
+2026.03.18 14:42:32 INFO  shutting down Metals
+2026.03.18 14:42:32 INFO  Exiting server
+2026.03.18 14:42:46 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Dayana\OneDrive\Escritorio\POO' for client Visual Studio Code 1.111.0.
+2026.03.18 14:42:46 INFO  Memory monitor started
+2026.03.18 14:42:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.18 14:42:48 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+mar. 18, 2026 2:42:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 7
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 8
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 11
+mar. 18, 2026 2:42:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 13
+2026.03.18 14:42:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:42:51 WARN  no build tool detected in workspace 'C:\Users\Dayana\OneDrive\Escritorio\POO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.18 14:42:51 WARN  Build server is not auto-connectable.
+2026.03.18 14:42:51 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:42:51 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
