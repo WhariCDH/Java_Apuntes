@@ -1,0 +1,202 @@
+2026.03.18 14:13:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.18 14:13:18 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:13:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:13:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9
+mar. 18, 2026 2:13:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10
+mar. 18, 2026 2:13:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 11
+mar. 18, 2026 2:13:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 12
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:20 WARN  no build tool detected in workspace 'C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+mar. 18, 2026 2:13:20 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 13
+2026.03.18 14:13:19 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:21 WARN  Build server is not auto-connectable.
+2026.03.18 14:13:21 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:21 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java
+2026.03.18 14:13:22 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:22 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:22 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:24 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:13:25 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Ejemplo02/MainEnvio.java. Output:
+
+2026.03.18 14:13:25 INFO  time: code lens generation in 2.54s
+2026.03.18 14:13:25 INFO  time: code lens generation in 4.19s
+mar. 18, 2026 2:13:35 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.03.18 14:13:35 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:13:36 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.03.18 14:13:37 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:01 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Descuentos.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Valores.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Estudiante.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/Descuentos.java. Output:
+
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Estudiante.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Valores.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  Report absolute-path: ### java.nio.file.NoSuchFileException: c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Valores.java
+
+Uri: file:///c%3A/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/Valores.java
+
+
+#### Error stacktrace:
+
+```
+java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	java.base/sun.nio.fs.WindowsLinkSupport.getFinalPath(WindowsLinkSupport.java:104)
+	java.base/sun.nio.fs.WindowsLinkSupport.getRealPath(WindowsLinkSupport.java:271)
+	java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:947)
+	java.base/sun.nio.fs.WindowsPath.toRealPath(WindowsPath.java:42)
+	scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.dealias(ScalametaCommonEnrichments.scala:408)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:151)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:768)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceForOpt(WorkspaceLspService.scala:358)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:367)
+	scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:500)
+	scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:49)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+```
+
+2026.03.18 14:14:31 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Valores.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Estudiante.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/EstudiantePosGrado.java. Output:
+
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/MainEstudiante.java. Output:
+
+2026.03.18 14:14:31 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\EstudiantePreGrado.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Valores.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Estudiante.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\MainEstudiante.java
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\EstudiantePosGrado.java
+2026.03.18 14:14:31 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:31 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/EstudiantePreGrado.java. Output:
+
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/Descuentos.java. Output:
+
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/EstudiantePosGrado.java. Output:
+
+2026.03.18 14:14:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/MainEstudiante.java. Output:
+
+2026.03.18 14:14:32 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/Estudiante.java. Output:
+
+2026.03.18 14:14:32 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Laboratorio/Valores.java. Output:
+
+2026.03.18 14:14:34 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:35 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:14:35 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:14:35 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java
+2026.03.18 14:14:35 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:14:35 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:15:19 INFO  no build target found for c:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Laboratorio\Descuentos.java. Using fallback presentation compiler.
+2026.03.18 14:22:04 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO' for client Visual Studio Code 1.111.0.
+2026.03.18 14:22:04 INFO  Memory monitor started
+2026.03.18 14:22:41 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO' for client Visual Studio Code 1.111.0.
+2026.03.18 14:22:41 INFO  Memory monitor started
+2026.03.18 14:22:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.18 14:22:47 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:22:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.03.18 14:22:48 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:22:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 6
+2026.03.18 14:22:48 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:49 WARN  no build tool detected in workspace 'C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.18 14:22:49 WARN  Build server is not auto-connectable.
+2026.03.18 14:22:49 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java
+2026.03.18 14:22:49 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:51 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Ejemplo02/MainEnvio.java. Output:
+
+2026.03.18 14:22:51 INFO  time: code lens generation in 2.35s
+2026.03.18 14:22:51 INFO  time: code lens generation in 2.35s
+2026.03.18 14:22:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:55 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:55 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:55 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:22:55 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 15
+2026.03.18 14:22:55 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:56 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:56 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:22:58 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.03.18 14:22:58 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:22:58 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+mar. 18, 2026 2:23:00 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.03.18 14:23:00 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:23:05 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:23:11 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Ejemplo02\MainEnvio.java. Using fallback presentation compiler.
+2026.03.18 14:23:11 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:23:11 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:23:11 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+mar. 18, 2026 2:23:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 29
+2026.03.18 14:23:11 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:23:11 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/MainEstudiante.java. Output:
+
+2026.03.18 14:23:11 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:23:23 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:23:24 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java
+2026.03.18 14:23:24 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\MainEstudiante.java. Using fallback presentation compiler.
+2026.03.18 14:23:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:50 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java
+2026.03.18 14:23:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:50 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/EstudiantePreGrado.java. Output:
+
+mar. 18, 2026 2:23:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 78
+2026.03.18 14:23:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:50 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePreGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:53 WARN  no build target for: C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java
+2026.03.18 14:23:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:23:53 WARN  Running javac-semanticdb failed for file:///C:/Users/Dayana/OneDrive/Escritorio/Apuntes%20de%20POO/Semana08/Laboratorio/EstudiantePosGrado.java. Output:
+
+2026.03.18 14:23:53 INFO  no build target found for C:\Users\Dayana\OneDrive\Escritorio\Apuntes de POO\Semana08\Laboratorio\EstudiantePosGrado.java. Using fallback presentation compiler.
+2026.03.18 14:26:14 INFO  Shutting down server
+2026.03.18 14:26:14 INFO  Memory monitor stopped
+2026.03.18 14:26:14 INFO  shutting down Metals
+2026.03.18 14:26:14 INFO  Exiting server
