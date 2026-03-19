@@ -12,12 +12,12 @@ public interface Valores {
     double pensionParticular=650;
 
     double porcentaje1=0;
-    double porcentaje2=0.80;
+    double porcentaje2=0.08;
 
     double descuentoCondicion1=0.15;
     double descuentoCondicion2=0.20;
 
     double pensionBachiller=1200;
-    double pensionTitulado=130;
+    double pensionTitulado=1300;
     
 }
