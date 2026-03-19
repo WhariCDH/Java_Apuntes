@@ -38,10 +38,9 @@ public class MainEmpleado {
                     System.out.print("Area: ");
                     String area = sc.nextLine();
 
-                    EmpleadoAdministrativo ea =
-                            new EmpleadoAdministrativo(cod, nom, anios, area);
+                    EmpleadoAdministrativo ea=new EmpleadoAdministrativo(cod, nom, anios, area);
 
-                    System.out.println("Sueldo Final: " + ea.sueldoFinal());
+                    System.out.println("Sueldo Final: " +ea.sueldoFinal());
 
                     break;
 
@@ -60,10 +59,9 @@ public class MainEmpleado {
                     int horas = sc.nextInt();
                     sc.nextLine();
 
-                    EmpleadoOperario eo =
-                            new EmpleadoOperario(cod, nom, anios, horas);
+                    EmpleadoOperario eo=new EmpleadoOperario(cod, nom, anios, horas);
 
-                    System.out.println("Sueldo Final: " + eo.sueldoFinal());
+                    System.out.println("Sueldo Final: " +eo.sueldoFinal());
 
                     break;
 
@@ -82,10 +80,9 @@ public class MainEmpleado {
                     System.out.print("Departamento: ");
                     String dep = sc.nextLine();
 
-                    EmpleadoGerente eg =
-                            new EmpleadoGerente(cod, nom, anios, dep);
+                    EmpleadoGerente eg=new EmpleadoGerente(cod, nom, anios, dep);
 
-                    System.out.println("Sueldo Final: " + eg.sueldoFinal());
+                    System.out.println("Sueldo Final: " +eg.sueldoFinal());
 
                     break;
 
