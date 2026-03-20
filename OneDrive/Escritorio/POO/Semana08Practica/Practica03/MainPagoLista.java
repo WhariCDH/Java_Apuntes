@@ -1,5 +1,4 @@
 package Semana08Practica.Practica03;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -86,9 +85,7 @@ public class MainPagoLista {
 
                     System.out.println("\nLISTA DE PAGOS");
                     for (Pago p : listaPagos) {           // ⭐ NUEVO FOR POLIMORFICO
-                        System.out.println(
-                                p.getCodigoPago() +
-                                " -> Final: " + p.montoFinal());
+                        System.out.println(p.getCodigoPago() + " -> Final: " + p.montoFinal());
                     }
 
                     break;
@@ -98,7 +95,7 @@ public class MainPagoLista {
                     double total = 0;
 
                     for (Pago p : listaPagos) {           // ⭐ POLIMORFISMO REAL
-                        total += p.montoFinal();
+                        total=total+p.montoFinal();
                     }
 
                     System.out.println("TOTAL RECAUDADO: " + total);

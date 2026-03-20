@@ -1,12 +1,12 @@
-error id: file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana08Practica/Practica01/Empleado.java
-file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana08Practica/Practica01/Empleado.java
+error id: file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana09/Teatro.java
+file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana09/Teatro.java
 ### com.thoughtworks.qdox.parser.ParseException: syntax error @[1,1]
 
 error in qdox parser
 file content:
 ```java
 offset: 0
-uri: file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana08Practica/Practica01/Empleado.java
+uri: file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana09/Teatro.java
 text:
 ```scala
 @@
@@ -64,4 +64,4 @@ com.thoughtworks.qdox.parser.impl.Parser.yyerror(Parser.java:2025)
 ```
 #### Short summary: 
 
-QDox parse error in file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana08Practica/Practica01/Empleado.java
+QDox parse error in file:///C:/Users/Dayana/OneDrive/Escritorio/POO/Semana09/Teatro.java
