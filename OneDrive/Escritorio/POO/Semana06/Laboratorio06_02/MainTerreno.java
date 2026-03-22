@@ -26,6 +26,8 @@ public class MainTerreno {
         System.out.println("\n*****VENTA DE TERRENO*****");
         System.out.println("Comision vendedor: " + t.calcularComision());
         System.out.println("Total inversion: " + t.totalInvercion());
+
+        sc.close();
     }
     
 }

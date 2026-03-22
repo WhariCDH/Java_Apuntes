@@ -65,5 +65,6 @@ public class MainEnvio {
             }
 
         } while (opcion != 3);
+        sc.close();
     }
 }

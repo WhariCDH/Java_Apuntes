@@ -116,5 +116,6 @@ public class MainAlumno {
             }
 
         } while (opcion != 3);
+        sc.close();
     }
 }
