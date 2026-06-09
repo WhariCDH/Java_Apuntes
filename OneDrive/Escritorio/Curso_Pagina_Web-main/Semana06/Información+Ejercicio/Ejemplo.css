@@ -1,0 +1,156 @@
+/********************************/
+/* 📏 1. USO DE VH y VW        */
+/********************************/
+body {
+    margin: 0;
+
+    /* ✔ Ocupa toda la pantalla */
+    height: 100vh;
+
+    /* ✔ Centramos todo con flexbox */
+    display: flex;
+    flex-direction: column;
+}
+
+/********************************/
+/* 🎨 HEADER                   */
+/********************************/
+.header {
+    background: black;
+    color: white;
+    text-align: center;
+
+    /* ✔ vw → ocupa todo el ancho */
+    width: 100vw;
+}
+
+/********************************/
+/* 📦 NAVBAR CON FLEXBOX       */
+/********************************/
+.nav {
+    display: flex; /* ✔ Activamos flexbox */
+
+    justify-content: space-around; 
+    /* ✔ Espacio entre elementos (horizontal) */
+
+    align-items: center; 
+    /* ✔ Centrado vertical */
+
+    background: gray;
+    padding: 10px;
+}
+
+/* ✔ Estilo de enlaces */
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/********************************/
+/* 🧱 CONTENEDOR FLEX          */
+/********************************/
+.contenedor {
+    display: flex; /* ✔ Flexbox */
+
+    flex-direction: row; 
+    /* ✔ Horizontal */
+
+    flex-wrap: wrap; 
+    /* ✔ Permite bajar a otra línea */
+
+    justify-content: center; 
+    /* ✔ Centra horizontalmente */
+
+    align-items: center; 
+    /* ✔ Centra verticalmente */
+
+    height: 100%; /* ocupa espacio restante */
+}
+
+/********************************/
+/* 📦 CAJAS (ITEMS)            */
+/********************************/
+.caja {
+    background: lightblue;
+    margin: 10px;
+    padding: 20px;
+
+    /* ✔ Tamaño base */
+    flex-basis: 150px;
+
+    /* ✔ Permite crecer */
+    flex-grow: 1;
+
+    text-align: center;
+}
+
+/********************************/
+/* 🎯 ITEM ESPECIAL            */
+/********************************/
+.especial {
+    background: orange;
+
+    /* ✔ Cambia orden visual */
+    order: -1;
+
+    /* ✔ Se alinea diferente */
+    align-self: flex-start;
+}
+
+/********************************/
+/* 📱 MEDIA QUERIES           */
+/********************************/
+
+/* ✔ Para tablets y celulares */
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        /* ✔ Menú vertical */
+    }
+
+    .contenedor {
+        flex-direction: column;
+        /* ✔ Las cajas se ponen en columna */
+    }
+}
+
+/* ✔ Para celulares pequeños */
+@media (max-width: 480px) {
+
+    body {
+        background: lightgray;
+        /* ✔ Cambia fondo según pantalla */
+    }
+
+    .caja {
+        flex-basis: 100%;
+        /* ✔ Cada caja ocupa todo el ancho */
+    }
+}
+
+/*
+🧠 ¿QUÉ ESTÁS PRACTICANDO AQUÍ? (CLAVE 🔥)
+
+✔ vh / vw → pantalla completa
+✔ display: flex → activar flexbox
+✔ justify-content → horizontal
+✔ align-items → vertical
+✔ flex-wrap → salto de línea
+✔ flex-grow → crecimiento
+✔ order → cambiar posición
+✔ align-self → alinear individual
+✔ @media → responsive
+
+🎯 RESULTADO
+
+💻 En PC:
+
+Menú horizontal
+Cajas en fila
+
+📱 En celular:
+
+Menú vertical
+Cajas una debajo de otra
+*/

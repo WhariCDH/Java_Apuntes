@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Cuenta</title>
+</head>
+
+<body>
+
+    <h1>Registro de Usuario</h1>
+
+    <form method="post">
+
+        <!-- DATOS PERSONALES -->
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required><br><br>
+
+            <label>Apellido:</label><br>
+            <input type="text" name="apellido" required><br><br>
+
+            <label>Correo electrónico:</label><br>
+            <input type="email" name="correo" required><br><br>
+
+            <label>Contraseña:</label><br>
+            <input type="password" name="password" required><br><br>
+
+            <label>Edad:</label><br>
+            <input type="number" name="edad" min="1" max="100"><br><br>
+
+            <label>Fecha de nacimiento:</label><br>
+            <input type="date" name="fecha"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- GÉNERO -->
+        <fieldset>
+            <legend>Género</legend>
+
+            <label><input type="radio" name="genero"> Masculino</label>
+            <label><input type="radio" name="genero"> Femenino</label>
+            <label><input type="radio" name="genero"> Otro</label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- INTERESES -->
+        <fieldset>
+            <legend>Intereses</legend>
+
+            <label><input type="checkbox"> Transporte urbano</label>
+            <label><input type="checkbox"> Viajes largos</label>
+            <label><input type="checkbox"> Ofertas y promociones</label>
+
+        </fieldset>
+
+        <br>
+
+        <!-- CIUDAD -->
+        <label>Ciudad:</label><br>
+        <select name="ciudad">
+            <optgroup label="Perú">
+                <option>Lima</option>
+                <option>Piura</option>
+                <option>Arequipa</option>
+            </optgroup>
+
+            <optgroup label="Otros">
+                <option>Chile</option>
+                <option>Colombia</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        <!-- COMENTARIOS -->
+        <label>Sobre ti:</label><br>
+        <textarea rows="4" cols="30" placeholder="Cuéntanos sobre ti"></textarea>
+
+        <br><br>
+
+        <!-- TÉRMINOS -->
+        <label>
+            <input type="checkbox" required>
+            Acepto los términos y condiciones
+        </label>
+
+        <br><br>
+
+        <!-- BOTONES -->
+        <input type="submit" value="Crear Cuenta">
+        <input type="reset" value="Limpiar">
+
+    </form>
+
+</body>
+</html>

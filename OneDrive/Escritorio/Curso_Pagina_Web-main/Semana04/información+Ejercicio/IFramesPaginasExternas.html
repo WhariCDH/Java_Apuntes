@@ -1,0 +1,131 @@
+<!-- 
+/***************************************/
+/* 🌐 1. IFRAMES CON PÁGINAS EXTERNAS */
+/***************************************/
+👉 Sí, puedes hacer esto: -->
+
+<iframe 
+    src="https://guardian-tales.fandom.com/wiki/Guardian_Tales_Wiki"
+    width="800"
+    height="500">
+</iframe>
+
+<!--
+✔ Esto intenta mostrar una página web dentro de la tuya
+
+/*********************************************************/
+/* ⚠️ 2. PERO AQUÍ VIENE LO IMPORTANTE (CLAVE DE EXAMEN) */
+/*********************************************************/
+👉 Muchas páginas (como esa wiki) NO se pueden mostrar en iframe
+
+❌ ¿Por qué?
+Por seguridad:
+
+X-Frame-Options
+Content-Security-Policy
+
+👉 Eso bloquea que otras webs las incrusten.
+
+/***********************/
+🧠 ¿Qué pasa entonces?
+
+👉 Si pruebas ese iframe:
+
+Puede salir en blanco ❌
+Puede mostrar error ❌
+
+/************************************/
+/* 🔥 3. ENTONCES ¿CUÁNDO FUNCIONA? */
+/************************************/
+✔ Funciona con:
+
+YouTube
+Google Maps
+Algunas webs abiertas
+Contenido propio
+
+/****************************************/
+/* 💡 4. SOLUCIÓN REAL (BUENA PRÁCTICA) */
+/****************************************/
+En lugar de forzar iframe, haces esto:
+-->
+
+<p>Visita la wiki oficial:</p>
+<a href="https://guardian-tales.fandom.com/wiki/Guardian_Tales_Wiki" target="_blank">
+    Ir a Guardian Tales Wiki
+</a>
+
+<!-- 
+✔ Abre en otra pestaña
+✔ No falla
+✔ Más profesional
+
+/*************************************/
+/* 🧪 5. USO CORRECTO EN TU PROYECTO */
+/*************************************/
+👉 Ejemplo completo:
+-->
+
+<section>
+    <h2>Información del juego</h2>
+
+    <p>Consulta más información en la wiki oficial:</p>
+
+    <a href="https://guardian-tales.fandom.com/wiki/Guardian_Tales_Wiki" target="_blank">
+        Ver Wiki Guardian Tales
+    </a>
+
+</section>
+
+<!-- 
+/***************************************/
+/* 🧠 6. DIFERENCIA CLAVE (IMPORTANTE) */
+/***************************************/
+
+Caso	                Qué usar
+Video	                iframe
+Mapa	                iframe
+Otra web (bloqueada)	enlace <a>
+Contenido propio	    iframe
+
+/**********************************************************/
+/* 🔥 7. COMBINACIÓN PRO (LO QUE TE PUEDE PEDIR EL PROFE) */
+/**********************************************************/
+👉 Mezcla iframe + enlace:
+-->
+
+<section>
+    <h2>Gameplay</h2>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/1ATLebaVJvY">
+    </iframe>
+
+    <p>Más información:</p>
+    <a href="https://guardian-tales.fandom.com/wiki/Guardian_Tales_Wiki" target="_blank">
+        Ir a la wiki
+    </a>
+</section>
+
+<!--
+/***********************************************/
+/* ⚠️ 8. ERRORES QUE TE PUEDEN TOMAR EN EXAMEN */
+/***********************************************/
+
+❌ Intentar meter cualquier web en iframe
+❌ No entender por qué no carga
+❌ No usar target="_blank"
+❌ No diferenciar iframe vs enlace
+
+/*****************************************************/
+/* 🎯 9. LO QUE REALMENTE DEBES APRENDER ESTA SEMANA */
+/*****************************************************/
+
+✔ Qué es <iframe>
+✔ Cuándo usarlo
+✔ Cuándo NO usarlo
+✔ Cómo insertar videos
+✔ Cómo manejar páginas externas
+-->

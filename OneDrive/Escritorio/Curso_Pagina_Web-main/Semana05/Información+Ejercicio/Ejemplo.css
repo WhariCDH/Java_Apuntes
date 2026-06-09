@@ -1,0 +1,39 @@
+/* ✔ SELECTOR DE ELEMENTO */
+/* Aplica a TODOS los h1 */
+h1 {
+    color: red; /* cambia color del texto */
+    background: yellow; /* fondo del texto */
+    text-align: justify; /* centra el texto */
+}
+
+/* ✔ SELECTOR POR ID */
+/* Solo afecta al elemento con id="descripcion" */
+#descripcion {
+    color: blue; /* cambia color */
+    font-size: 20px; /* tamaño de letra */
+}
+
+/* ✔ SELECTOR POR CLASE (EL MÁS USADO) */
+/* Aplica a todos los elementos con class="texto" */
+.texto {
+    color: rgb(0, 0, 0); /* color del texto */
+    font-family: Arial; /* tipo de letra */
+}
+
+/* ✔ JERARQUÍA (selector dentro de otro) */
+/* Solo afecta a .texto que está dentro de .contenedor */
+.contenedor .texto {
+    color: orange; /* sobrescribe el verde anterior */
+}
+
+/* ✔ EJEMPLO DE SOBRESCRITURA */
+/* Este estilo se aplica después, por eso cambia el anterior */
+.texto {
+    font-size: 18px; /* ahora todos los .texto tendrán este tamaño */
+}
+
+/* ✔ USO DE !important (NO recomendado pero importante saber) */
+#descripcion {
+    color: purple !important; 
+    /* este color gana SIEMPRE aunque haya otros */
+}

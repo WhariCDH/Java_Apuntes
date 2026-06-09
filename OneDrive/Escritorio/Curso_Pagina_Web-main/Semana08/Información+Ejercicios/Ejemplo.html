@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo JavaScript Semana 8</title>
+
+    <!-- ✔ CSS EXTERNO -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h1>JavaScript - Semana 8</h1>
+
+    <!-- ===================================== -->
+    <!-- VARIABLES Y CONSTANTES -->
+    <!-- ===================================== -->
+
+    <h2>Variables y Constantes</h2>
+
+    <button onclick="mostrarDatos()">
+        Mostrar Datos
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- OPERADORES ARITMÉTICOS -->
+    <!-- ===================================== -->
+
+    <h2>Operadores Aritméticos</h2>
+
+    <button onclick="sumar()">
+        Sumar 10 + 5
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- OPERADORES RELACIONALES -->
+    <!-- ===================================== -->
+
+    <h2>Operadores Relacionales</h2>
+
+    <button onclick="comparar()">
+        Comparar Edades
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- OPERADORES LÓGICOS -->
+    <!-- ===================================== -->
+
+    <h2>Operadores Lógicos</h2>
+
+    <button onclick="validarAcceso()">
+        Validar Acceso
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- OPERADORES DE ASIGNACIÓN -->
+    <!-- ===================================== -->
+
+    <h2>Operadores de Asignación</h2>
+
+    <button onclick="puntosJuego()">
+        Ganar Puntos
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- INPUT TEXT -->
+    <!-- ===================================== -->
+
+    <h2>Input de Texto</h2>
+
+    <input type="text" id="nombre">
+
+    <button onclick="saludar()">
+        Saludar
+    </button>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- EVENTO ONCHANGE -->
+    <!-- ===================================== -->
+
+    <h2>Evento onchange</h2>
+
+    <select onchange="elegirHeroe(this.value)">
+
+        <option>Seleccione</option>
+
+        <option>Future Princess</option>
+
+        <option>Beth</option>
+
+        <option>Karina</option>
+
+    </select>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- EVENTO ONMOUSEOVER -->
+    <!-- ===================================== -->
+
+    <h2>Evento onmouseover</h2>
+
+    <div class="caja"
+         onmouseover="mensajeMouse()">
+
+         Pase el mouse aquí
+    </div>
+
+    <hr>
+
+    <!-- ===================================== -->
+    <!-- EVENTO ONLOAD -->
+    <!-- ===================================== -->
+
+    <p>
+        Al cargar la página se ejecutará un mensaje
+        en consola.
+    </p>
+
+    <!-- ✔ JavaScript Externo -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

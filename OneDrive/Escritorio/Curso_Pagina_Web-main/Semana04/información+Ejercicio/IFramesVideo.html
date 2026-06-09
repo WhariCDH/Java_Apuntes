@@ -1,0 +1,169 @@
+<!--🎥 TU VIDEO (EJEMPLO REAL)
+
+Aquí tienes el video que mandaste ya incrustado 👇
+
+Enlace de vídeo de YouTube
+
+/*******************************************/
+/* 1. LO MÁS IMPORTANTE QUE DEBES ENTENDER */
+/*******************************************/
+👉 Un <iframe> es:
+
+✔ Una ventana dentro de tu página
+✔ Donde puedes cargar contenido externo
+✔ Funciona con una URL en src
+
+/****************************/
+/* 💻 2. TU CASO (YOUTUBE) */
+/****************************/
+Tu link:
+
+https://www.youtube.com/embed/1ATLebaVJvY
+
+👉 Ese formato es CLAVE:
+
+✔ NO usar watch?v=
+✔ SI usar /embed/VIDEO_ID
+
+/***************************************************/
+/* 💻 3. CÓDIGO BÁSICO (LO QUE DEBES SABER HACER) */
+/***************************************************/
+-->
+
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/1ATLebaVJvY"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+
+<!--
+/***********************************/
+/* 🧠 4. EXPLICACIÓN DE CADA PARTE */
+/***********************************/
+
+/* 🔗 src */
+
+👉 URL del contenido
+
+✔ Aquí va tu video
+
+/* 📏 width y height */
+
+👉 Tamaño del iframe
+
+✔ Puedes cambiarlo
+
+/* 🚫 frameborder="0" */
+
+👉 Quita el borde
+
+/* 🔳 allowfullscreen */
+
+👉 Permite pantalla completa
+
+/********************************************/
+/* 🔥 5. ATRIBUTOS IMPORTANTES (NIVEL PRO) */
+/********************************************/
+
+Puedes mejorar tu iframe así:
+-->
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/1ATLebaVJvY?autoplay=1"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+<!--
+🧠 ¿Qué hace esto?
+
+✔ autoplay=1 → reproduce automático
+✔ allow → permisos del video
+
+/******************************************/
+/* ⚠️ 6. ERRORES MUY COMUNES (EXAMEN 🔥) */
+/******************************************/
+
+❌ Usar:
+
+https://www.youtube.com/watch?v=...
+
+✔ Debe ser:
+
+https://www.youtube.com/embed/...
+
+👉 Si no, NO funciona en iframe
+
+❌ Algunas páginas NO permiten iframe
+
+👉 Por seguridad (X-Frame-Options)
+
+/***************************************/
+/* 🧪 7. EJEMPLOS QUE TE PUEDEN PEDIR */
+/***************************************/
+
+✔ Video (lo que ya hiciste)
+-->
+
+<iframe src="https://www.youtube.com/embed/1ATLebaVJvY"></iframe>
+
+<!--✔ Página web -->
+
+<iframe src="https://www.wikipedia.org"></iframe>
+
+<!-- ✔ Contenido interno (HTML5) -->
+
+<iframe srcdoc="<h1>Hola mundo</h1>"></iframe>
+
+<!--
+/************************************/
+/* 🔥 8. CÓMO USARLO EN TU PROYECTO */
+/************************************/
+👉 Ejemplo en tu página:
+-->
+
+<section>
+    <h2>Gameplay Guardian Tales</h2>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/1ATLebaVJvY"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+<!-- 
+/************************************/
+/* 🧠 9. NIVEL PRO (MUY IMPORTANTE) */
+/************************************/
+📱 Hacerlo responsive (se adapta a pantalla)
+-->
+
+<div style="position:relative; padding-bottom:56.25%; height:0;">
+    <iframe 
+        src="https://www.youtube.com/embed/1ATLebaVJvY"
+        style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
+</div>
+
+<!--
+👉 Esto es nivel alto 🔥
+
+/***********************************************/
+/* 🎯 10. LO QUE DEBES APRENDER DE ESTA SEMANA */
+/***********************************************/
+
+✔ Qué es <iframe>
+✔ Cómo usar src
+✔ Diferencia embed vs watch
+✔ Atributos importantes
+✔ Insertar videos
+✔ Integrarlo en tu web
+-->

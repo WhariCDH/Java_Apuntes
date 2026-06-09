@@ -1,0 +1,52 @@
+/* ===================================== */
+/* BODY */
+/* ===================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ===================================== */
+/* TITULO */
+/* ===================================== */
+
+h1 {
+    color: darkblue;
+}
+
+/* ===================================== */
+/* MENSAJES */
+/* ===================================== */
+
+#mensaje {
+    color: green;
+    font-size: 20px;
+}
+
+#resultado {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ===================================== */
+/* BOTONES */
+/* ===================================== */
+
+button {
+    padding: 10px 15px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+/* ===================================== */
+/* EFECTO HOVER */
+/* ===================================== */
+
+button:hover {
+    background-color: lightgray;
+}

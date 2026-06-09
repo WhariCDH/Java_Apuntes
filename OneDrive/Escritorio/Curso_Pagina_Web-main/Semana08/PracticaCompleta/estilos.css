@@ -1,0 +1,42 @@
+/* ===================================== */
+/* SELECTOR DE ETIQUETA */
+/* ===================================== */
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+/* ===================================== */
+/* BODY */
+/* ===================================== */
+
+body{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ===================================== */
+/* BOTONES */
+/* ===================================== */
+
+button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* ===================================== */
+/* MENSAJES */
+/* ===================================== */
+
+#mensaje{
+    color: green;
+    font-size: 20px;
+}
+
+#resultado{
+    color: red;
+    font-size: 22px;
+}

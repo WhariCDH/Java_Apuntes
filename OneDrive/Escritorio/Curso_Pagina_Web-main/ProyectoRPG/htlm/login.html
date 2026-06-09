@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <h1>Iniciar Sesión</h1>
+
+    <form method="get"> <!--"method" cómo se envían "post" datos ocultos "get" datos visibles-->
+
+        <fieldset> <!--Agrupar campos--> 
+
+            <legend>Acceso</legend> <!--Mejor presentación-->
+
+            <label>Correo:</label><br> <!--"label" para cada campo-->
+            <input type="email" name="correo" required><br><br> <!--"input" Crea campos para crear datos -->
+
+            <label>Contraseña:</label><br>
+            <input type="password" name="password" required><br><br>
+
+        </fieldset>
+
+        <br> <!--"br" linea de espacio-->
+
+        <input type="submit" value="Ingresar"> <!--Enviar-->
+        <input type="reset" value="Limpiar">   <!--Resetear-->
+
+    </form>
+
+    <p>¿No tienes cuenta? <a href="registro.html">Crear cuenta</a></p> <!--"p" texto, "a href" mandara a registros, con nombre "Crear cuenta"-->
+
+</body>
+</html>

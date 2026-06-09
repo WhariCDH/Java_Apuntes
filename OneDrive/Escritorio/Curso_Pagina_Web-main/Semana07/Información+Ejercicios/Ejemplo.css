@@ -1,0 +1,170 @@
+/**********************************/
+/* 🎨 ESTILOS GENERALES */
+/**********************************/
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/**********************************/
+/* 📏 VH Y VW */
+/**********************************/
+
+.banner{
+
+    /* 50% del alto de la pantalla */
+    height:50vh;
+
+    /* 100% del ancho de la pantalla */
+    width:100vw;
+
+    background-color: steelblue;
+    color:white;
+
+    text-align:center;
+
+    /* FLEXBOX para centrar contenido */
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    flex-direction:column;
+}
+
+
+/**********************************/
+/* 📦 FLEXBOX EN EL MENÚ */
+/**********************************/
+
+.menu{
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+    background:black;
+
+    padding:15px;
+}
+
+.menu a{
+
+    color:white;
+    text-decoration:none;
+}
+
+
+/**********************************/
+/* 📦 CONTENEDOR FLEX */
+/**********************************/
+
+.contenedor-flex{
+
+    display:flex;
+
+    /* Dirección horizontal */
+    flex-direction:row;
+
+    /* Permite saltar a otra línea */
+    flex-wrap:wrap;
+
+    /* Atajo de direction + wrap */
+    /* flex-flow: row wrap; */
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:20px;
+}
+
+
+/**********************************/
+/* 🧩 ITEMS FLEX */
+/**********************************/
+
+.tarjeta{
+
+    background:white;
+
+    width:250px;
+
+    margin:10px;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px gray;
+
+    text-align:center;
+
+    /* Tamaño inicial */
+    flex-basis:250px;
+
+    /* Puede crecer */
+    flex-grow:1;
+
+    /* Puede reducirse */
+    flex-shrink:1;
+}
+
+
+/**********************************/
+/* 🔢 ORDER */
+/**********************************/
+
+.especial{
+
+    background:gold;
+
+    /* Aparece primero aunque esté segundo */
+    order:-1;
+}
+
+
+/**********************************/
+/* 🎯 ALIGN-SELF */
+/**********************************/
+
+.especial{
+
+    align-self:flex-start;
+}
+
+
+/**********************************/
+/* 📱 MEDIA QUERY */
+/**********************************/
+
+/* Cuando la pantalla sea menor a 768px */
+
+@media (max-width:768px){
+
+    body{
+        background-color: lightblue;
+    }
+
+    .menu{
+
+        /* Menú vertical */
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    .contenedor-flex{
+
+        /* Tarjetas una debajo de otra */
+        flex-direction:column;
+    }
+
+    .tarjeta{
+
+        width:90%;
+    }
+}

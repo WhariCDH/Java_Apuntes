@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semana 8 - JavaScript</title>
+
+    <!-- ✔ Conectamos el CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ✔ Título principal -->
+    <h1>Práctica JavaScript - Guardian Tales</h1>
+
+    <!-- ✔ Texto que será modificado por JavaScript -->
+    <p id="mensaje">
+        Presiona un botón para interactuar.
+    </p>
+
+    <!-- ✔ Evento onclick -->
+    <button onclick="mostrarSaludo()">
+        Mostrar Saludo
+    </button>
+
+    <!-- ✔ Evento onclick para calcular -->
+    <button onclick="sumarNivel()">
+        Calcular Nivel
+    </button>
+
+    <!-- ✔ Evento mouseover -->
+    <button onmouseover="cambiarColor()">
+        Pasa el mouse aquí
+    </button>
+
+    <!-- ✔ Resultado -->
+    <p id="resultado"></p>
+
+    <!-- ================================================= -->
+    <!-- JAVASCRIPT INTERNO (SEMANA 8) -->
+    <!-- ================================================= -->
+
+    <script>
+
+        /* ===================================== */
+        /* ✔ VARIABLES */
+        /* ===================================== */
+
+        let jugador = "Whari";
+
+        var mundo = "Kanterbury";
+
+        /* ===================================== */
+        /* ✔ CONSTANTES */
+        /* ===================================== */
+
+        const juego = "Guardian Tales";
+
+        /* ===================================== */
+        /* ✔ EVENTO CLICK */
+        /* ===================================== */
+
+        function mostrarSaludo() {
+
+            document.getElementById("mensaje").innerHTML =
+                "Bienvenido " + jugador +
+                " al mundo de " + mundo +
+                " en " + juego;
+
+        }
+
+        /* ===================================== */
+        /* ✔ OPERADORES ARITMÉTICOS */
+        /* ===================================== */
+
+        function sumarNivel() {
+
+            let nivelActual = 10;
+            let recompensa = 5;
+
+            let total = nivelActual + recompensa;
+
+            document.getElementById("resultado").innerHTML =
+                "Nivel total: " + total;
+
+        }
+
+        /* ===================================== */
+        /* ✔ EVENTO MOUSEOVER */
+        /* ===================================== */
+
+        function cambiarColor() {
+
+            document.body.style.backgroundColor = "lightblue";
+
+        }
+
+    </script>
+
+</body>
+
+</html>

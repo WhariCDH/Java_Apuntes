@@ -1,0 +1,159 @@
+<!--FORMULARIO DE TRANSPORTE 🚌
+🎯 Objetivo
+
+Crear un formulario que permita:
+
+Registrar datos del usuario
+Elegir ruta
+Elegir tipo de servicio
+Seleccionar asiento
+Enviar datos
+
+🧩 PARTE 1: ESTRUCTURA
+
+Dentro de tu <body> agrega:-->
+
+<form method="post">
+</form>
+
+<!--🧾 PARTE 2: DATOS PERSONALES
+
+✔ Usa <fieldset> y <legend>
+
+👉 Debe incluir:
+
+Nombre → text
+Correo → email
+Edad → number
+Fecha de viaje → date
+
+💡 Ejemplo (tú escríbelo):-->
+
+<fieldset>
+  <legend>Datos del Pasajero</legend>
+
+  <label>Nombre:</label>
+  <input type="text" name="nombre"><br><br>
+
+  <label>Correo:</label>
+  <input type="email" name="correo"><br><br>
+
+  <label>Edad:</label>
+  <input type="number" name="edad"><br><br>
+
+  <label>Fecha de viaje:</label>
+  <input type="date" name="fecha"><br><br>
+</fieldset>
+
+<!--PARTE 3: SELECCIÓN DE RUTA
+
+👉 Usa <select>
+
+✔ Opciones:
+
+Centro – Norte
+Sur – Centro
+Este – Oeste
+
+💡 Debe verse así:-->
+
+<label>Ruta:</label>
+<select name="ruta">
+  <option>Centro - Norte</option>
+  <option>Sur - Centro</option>
+  <option>Este - Oeste</option>
+</select>
+
+<!--🔘 PARTE 4: TIPO DE SERVICIO (RADIO)
+
+👉 Solo se puede elegir uno
+
+✔ Opciones:
+
+Normal
+Rápido
+VIP-->
+
+<fieldset>
+  <legend>Tipo de Servicio</legend>
+
+  <label><input type="radio" name="servicio"> Normal</label>
+  <label><input type="radio" name="servicio"> Rápido</label>
+  <label><input type="radio" name="servicio"> VIP</label>
+
+</fieldset>
+
+<!--☑️ PARTE 5: SERVICIOS ADICIONALES (CHECKBOX)
+
+👉 Se pueden elegir varios
+
+✔ Opciones:
+
+Aire acondicionado
+WiFi
+Música-->
+
+<fieldset>
+  <legend>Servicios adicionales</legend>
+
+  <label><input type="checkbox"> Aire acondicionado</label>
+  <label><input type="checkbox"> WiFi</label>
+  <label><input type="checkbox"> Música</label>
+
+</fieldset>
+
+<!--💺 PARTE 6: SELECCIÓN DE ASIENTO
+
+👉 Usa <select> + <optgroup>-->
+
+<label>Asiento:</label>
+<select>
+  <optgroup label="Primera clase">
+    <option>Ventanilla</option>
+    <option>Pasillo</option>
+  </optgroup>
+
+  <optgroup label="Segunda clase">
+    <option>Ventanilla</option>
+    <option>Pasillo</option>
+  </optgroup>
+</select>
+
+<!--📝 PARTE 7: COMENTARIOS
+
+👉 Usa <textarea>-->
+
+<label>Comentarios:</label><br>
+<textarea rows="4" cols="30"></textarea>
+
+<!--🔘 PARTE 8: BOTONES-->
+
+<input type="submit" value="Comprar Pasaje">
+<input type="reset" value="Limpiar">
+
+<!-- 
+🧠 RETO EXTRA (💯)
+
+Si quieres subir nota:
+
+✔ Agrega:
+
+required en inputs importantes
+placeholder en nombre
+min y max en edad
+
+Ejemplo:
+
+<input type="number" min="1" max="100">
+🎯 RESULTADO FINAL (LO QUE DEBES LOGRAR)
+
+Tu formulario debe tener:
+
+✅ Fieldset
+✅ Inputs (text, email, number, date)
+✅ Radio
+✅ Checkbox
+✅ Select + optgroup
+✅ Textarea
+✅ Botones
+-->
